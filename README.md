@@ -69,3 +69,30 @@ Open the root **CMakeLists.txt** file and add your **new exercise** using `add_s
 add_subdirectory(exercises/02-<your_exercise_name>) #Remove `<your_exercise_name>` and enter your exercise name.
 ```
 That's it! Your new exercise is now part of the **Chista** project
+
+<br/>
+
+## Building the Project
+### - Visual Studio
+1. Open Visual Studio.
+2. Select Open a local folder.
+3. Open the **root Chista** directory.
+4. Let CMake configure the project.
+5. Select your desired exercise from the startup target list.
+6. Build and run
+
+### - Command Line
+If you have **CMake** installed on your system (separate from the **version** installed with Visual Studio as part of the **C++ development** workload), you can also **configure** and **build** the project using **CMake**:
+``` powershell
+cmake -S . -B build
+cmake --build build
+```
+To build a specific exercise:
+``` powershell
+cmake --build build --target <your_exercise_name>
+```
+
+<br/>
+
+## License
+This repository is primarily a personal learning space. Feel free to explore the code and learn from it.
