@@ -5,7 +5,7 @@
 
 <div align="center">
  <a href="https://github.com/mehdiemamhadi/chista"><img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Version"></a>
- <a href="https://github.com/mehdiemamhadi/chista?tab=MIT-1-ov-file"><img src="https://img.shields.io/badge/license-MIT-white" alt="MIT License" ></a>
+ <a href="https://github.com/mehdiemamhadi/chista/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-white" alt="MIT License" ></a>
  <a href="https://en.wikipedia.org/wiki/C%2B%2B"><img src="https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white" alt="C++"></a>
  <a href="https://cmake.org"><img src="https://img.shields.io/badge/build-Ninja-green" alt="MIT License" ></a>
  <a href="https://cmake.org"><img src="https://img.shields.io/badge/generator-CMake-green" alt="MIT License" ></a>
